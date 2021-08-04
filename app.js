@@ -39,7 +39,7 @@ app.post("/", function(req, res)
   const options=
   {
     method: "POST",
-    auth: //API link
+    auth: //Your API link
   }
 
   const request= https.request(url, options, function(response)
